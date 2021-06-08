@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Account,Branch,Loan,User,Bank,Runner
+from .models import Account, Branch, Loan, User, Bank, Runner
 admin.site.register(Bank)
 admin.site.register(Branch)
 admin.site.register(Account)
